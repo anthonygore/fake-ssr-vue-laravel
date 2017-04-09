@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="app"></div>
-    <script>window.__SERVER__=1</script>
+    <script>window.__SERVER__=true</script>
     <script>window.__INITIAL_STATE__='{!! json_encode($initial_state) !!}'</script>
     <script src="/js/app.js"></script>
 </body>
