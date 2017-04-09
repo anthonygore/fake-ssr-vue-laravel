@@ -1,14 +1,10 @@
 import Promise from 'promise-polyfill';
 
-// To add to window
 if (!window.Promise) {
     window.Promise = Promise;
 }
 
 import Vue from 'vue';
-
-Vue.config.devtools = true;
-
 import Vuex from 'vuex';
 
 Vue.use(Vuex);
@@ -34,8 +30,5 @@ import App from './components/App.vue';
 const app = new Vue({
     el: '#app',
     store,
-    created() {
-        console.log('root created');
-    },
     render: h => h(App)
 });
