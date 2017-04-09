@@ -21,9 +21,7 @@
     "promise-polyfill": "^6.0.2",
     "replace": "^0.3.0",
     "vue": "^2.1.10",
+    "vuex": "^2.2.1",
     "webpack-shell-plugin": "^0.5.0"
-  },
-  "dependencies": {
-    "vuex": "^2.2.1"
   }
 }
